@@ -22,6 +22,7 @@ class Window {
 		// INFO: Constructors
 		Window(u32 width, u32 height, std::string title, bool fullscreen, bool vsync, bool mssa4x);
 		Window();
+		void init();
 		~Window();
 		
 		// INFO: Functions
@@ -48,7 +49,6 @@ class Window {
 	private:
 
 		// INFO: Private functions to initialize window
-		void init_window();
 		void install_main_callbacks();
 
 		// INFO: Variables

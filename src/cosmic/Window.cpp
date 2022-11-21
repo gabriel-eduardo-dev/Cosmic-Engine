@@ -5,23 +5,25 @@
 Window::Window()
 	: glfw_window {nullptr}, window_width {800}, window_height {600}, title {"Cosmic"}, fullscreen {false}, vsync {true}, mssa4x {true}
 {
-	init_window();
+
 }
 
 Window::Window(u32 width, u32 height, std::string title, bool fullscreen, bool vsync, bool mssa4x)
 	: glfw_window {nullptr}, window_width {width}, window_height {height}, title {title}, fullscreen {fullscreen}, vsync {vsync}, mssa4x {mssa4x} 
 {
-	init_window();
+
 }
 
 Window::~Window()
 {
-	glfwDestroyWindow(glfw_window);
-	glfwTerminate();
-	printf("Window closed...\n");
+	if (glfw_window != nullptr) {
+		glfwDestroyWindow(glfw_window);
+		glfwTerminate();
+		printf("Window closed...\n");
+	}
 }
 
-void Window::init_window()
+void Window::init()
 {
 	printf("Creating window...\n");
 
