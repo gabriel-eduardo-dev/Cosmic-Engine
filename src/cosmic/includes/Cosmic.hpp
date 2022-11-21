@@ -11,5 +11,6 @@
 #include "EBO.hpp"
 #include "Shader.hpp"
 #include "Camera.hpp"
+#include <stb_image.h>
 
 #endif
