@@ -111,7 +111,7 @@ namespace App {
 			}
 			ImGui_ImplOpenGL3_NewFrame();
 			ImGui_ImplGlfw_NewFrame(); ImGui::NewFrame();
-vao.bind();
+			vao.bind();
 			ebo.bind();
 			shader_program.use();
 			shader_program.set_vec3("u_scales", scales);
