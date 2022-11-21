@@ -1,5 +1,5 @@
-#include "App.hpp"
+#include "App3.hpp"
 
 int main() {
-	App::run();
+	App3::run();
 }
