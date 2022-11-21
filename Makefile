@@ -1,18 +1,32 @@
 CXX := g++
 
+DETECTED_OS := 
+ifeq ($(OS), Windows_NT)
+	DETECTED_OS := Windows
+else
+	UNAME_S := $(shell uname -s)
+	ifeq ($(UNAME_S), Linux)
+		DETECTED_OS := Linux
+	endif
+endif
+
+#----------------------------------------------------------------------------------
+
 # Main
-CXX_FLAGS += -g -O2 -Wall -Wextra -pedantic -std=c++20
+CXX_FLAGS := -g -O2 -Wall -Wextra -pedantic -std=c++20
 
 ALL_INCLUDES += -I src/includes
 ALL_INCLUDES += -I src/cosmic/includes
 ALL_INCLUDES += -I dependencies
+ALL_INCLUDES += -I dependencies/GLFW
 ALL_INCLUDES += -I dependencies/glad
 ALL_INCLUDES += -I dependencies/glm
 ALL_INCLUDES += -I dependencies/imgui
 ALL_INCLUDES += -I dependencies/stb
-# ALL_INCLUDES += -L src/cosmic/lib
 
-CXX_LIBS += -lGL -lglfw3 -lX11 -lpthread -lXrandr -lXi -ldl -lXxf86vm -lXinerama -lXcursor #-lcosmic
+CXX_LINUX_LIBS := -lGL -lglfw3 -lX11 -lpthread -lXrandr -lXi -ldl -lXxf86vm -lXinerama -lXcursor
+CXX_WINDOWS_LIBS := -lglfw3 -lopengl32 -lgdi32 -luser32 -lkernel32
+CXX_WINDOWS_LINCLUDES := -L dependencies/GLFW
 
 SRC := src
 BIN := bin
@@ -56,31 +70,31 @@ CXX_COSMIC_FLAGS := -g -c -O3 -Wall -Wextra -pedantic -std=c++20
 
 #----------------------------------------------------------------------------------
 
-.PHONY: all clear run
+.PHONY: all clear clean run
 
 all: clear \
 	dirs \
-	all-deps \
-	all-main \
+	build \
 	link \
 	run 
 
 dirs:
 ifneq ($(wildcard objs/.*),)
 else
-	@mkdir bin/ objs/ objs/cosmic/ objs/dependencies/
+	@mkdir bin/ objs/ $(COSMIC_OBJS_DIR)/ objs/dependencies/
 endif
 
-all-deps: deps cosmic
+build: deps cosmic main
+change:
 
 clear:
 	@clear
 run: 
 	@$(BIN)/a.out
 clean:
-	@-rm -f $(OBJS_DIR)/*.o $(BIN)/*
+	@-rm -f $(OBJS_DIR)/*.o $(BIN)/*.o
 clean-cosmic:
-	@-rm -f $(COSMIC_OBJS_DIR)/*.o $(COSMIC_LIB)/*.a
+	@-rm -f $(COSMIC_OBJS_DIR)/*.o
 clean-deps:
 	@-rm -f $(DEPS_OBJS_DIR)/*.o
 clean-all:
@@ -90,34 +104,37 @@ clean-all:
 
 # Compile main files
 
-all-main: $(OBJS_DIR) $(CXX_OBJS)
-
-$(OBJS_DIR)/%.o: $(SRC)/%.cpp $(SRC)/includes/%.hpp
-	@echo "\nCompiling $*\n"
+$(OBJS_DIR)/%.o: $(SRC)/%.cpp $(SRC)/includes/%.hpp 
+	@echo "COMPILING MAIN::$*"
 	@$(CXX) -c $< -o $(OBJS_DIR)/$*.o $(ALL_INCLUDES)
 
 $(OBJS_DIR)/%.o: $(SRC)/%.cpp
-	@echo "\nCompiling $*\n"
+	@echo "COMPILING MAIN::$*"
 	@$(CXX) -c $< -o $(OBJS_DIR)/$*.o $(ALL_INCLUDES)
 
 link:
-	@$(CXX) $(OBJS_DIR)/*.o $(COSMIC_OBJS_DIR)/*.o $(DEPS_OBJS_DIR)/*.o -o $(BIN)/a.out $(CXX_FLAGS) $(ALL_INCLUDES) $(CXX_LIBS)
+ifeq ($(DETECTED_OS),Windows)
+	@$(CXX) $(OBJS_DIR)/*.o $(COSMIC_OBJS_DIR)/*.o $(DEPS_OBJS_DIR)/*.o -o $(BIN)/a.out $(CXX_FLAGS) $(CXX_WINDOWS_LIBS) $(CXX_WINDOWS_LINCLUDES) $(ALL_INCLUDES)
+else ifeq ($(DETECTED_OS),Linux)
+	@$(CXX) $(OBJS_DIR)/*.o $(COSMIC_OBJS_DIR)/*.o $(DEPS_OBJS_DIR)/*.o -o $(BIN)/a.out $(CXX_FLAGS) $(CXX_LINUX_LIBS) $(ALL_INCLUDES)
+endif
+
+main: $(OBJS_DIR) $(CXX_OBJS)
 
 #----------------------------------------------------------------------------------
 
 # Compile Cosmic files
 
 $(COSMIC_OBJS_DIR)/%.o: $(COSMIC_SRC)/%.cpp
-	@echo "\nCompiling $*\n"
-	@$(CXX) $< $(ALL_INCLUDES) $(CXX_COSMIC_FLAGS) -o objs/cosmic/$*.o
+	@echo "COMPILING COSMIC::$*"
+	@$(CXX) $< $(ALL_INCLUDES) $(CXX_COSMIC_FLAGS) -o $(COSMIC_OBJS_DIR)/$*.o
 
 
 $(COSMIC_OBJS_DIR)/%.o: $(COSMIC_SRC)/%.cpp $(COSMIC_INCLUDES)/%.hpp
-	@echo "\nCompiling $*\n"
-	@$(CXX) $< $(ALL_INCLUDES) $(CXX_COSMIC_FLAGS) -o objs/cosmic/$*.o
+	@echo "COMPILING COSMIC::$*"
+	@$(CXX) $< $(ALL_INCLUDES) $(CXX_COSMIC_FLAGS) -o $(COSMIC_OBJS_DIR)/$*.o
 
 cosmic: $(COSMIC_OBJS)
-#@ar rvs $(COSMIC_LIB)/libcosmic.a $(COSMIC_OBJS_DIR)/*.o $(DEPS_OBJS_DIR)/*.o
 
 #----------------------------------------------------------------------------------
 
@@ -125,12 +142,12 @@ cosmic: $(COSMIC_OBJS)
 
 # Glad
 $(DEPS_OBJS_DIR)/%.o: $(DEPS_GLAD)/%.c
-	@echo "\nCompiling $*\n"
+	@echo "COMPILING DEPENDENCIES::$*"
 	@$(CXX) $< $(ALL_INCLUDES) -o $(DEPS_OBJS_DIR)/$*.o $(CXX_DEPS_FLAGS)
 
 # Imgui
 $(DEPS_OBJS_DIR)/%.o: $(DEPS_IMGUI)/%.cpp
-	@echo "\nCompiling $*\n"
+	@echo "COMPILING DEPENDENCIES::$*"
 	@$(CXX) $< $(ALL_INCLUDES) -o $(DEPS_OBJS_DIR)/$*.o $(CXX_DEPS_FLAGS)
 
 deps: $(DEPS_GLAD_OBJ) $(DEPS_IMGUI_OBJS)
