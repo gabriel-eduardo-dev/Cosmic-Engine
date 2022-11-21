@@ -10,7 +10,9 @@ class VBO
 
 		UINT32 ID;
 
-		VBO(F32* vertices, GLsizeiptr size, GLenum type);
+		VBO();
+		VBO(F32* data, GLsizeiptr size, GLenum mode);
+		void buffer_data(F32* data, GLsizeiptr size, GLenum mode);
 		~VBO();
 
 		void bind();

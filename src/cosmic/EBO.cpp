@@ -1,10 +1,22 @@
 #include "EBO.hpp"
 
-EBO::EBO(UINT32* indices, GLsizeiptr size, GLenum mode)
+EBO::EBO()
 {
 	glGenBuffers(1, &ID);
-	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ID);
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, size, indices, mode);
+}
+
+EBO::EBO(UINT32* data, GLsizeiptr size, GLenum mode)
+{
+	glGenBuffers(1, &ID);
+	bind();
+	glBufferData(GL_ELEMENT_ARRAY_BUFFER, size, data, mode);
+	unbind();
+}
+
+void EBO::buffer_data(UINT32 *data, GLsizeiptr size, GLenum mode)
+{
+	bind();
+	glBufferData(GL_ELEMENT_ARRAY_BUFFER, size, data, mode);
 	unbind();
 }
 

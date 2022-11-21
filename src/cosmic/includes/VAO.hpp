@@ -15,6 +15,7 @@ class VAO
 		~VAO();
 
 		void link_vbo(VBO& vbo, UINT32 layout);
+		void link_vbo(VBO& vbo, UINT32 layout, i16 size, u16 stride, u16 pointer);
 		void bind();
 		void unbind();
 		void destroy();
