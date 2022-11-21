@@ -1,4 +1,4 @@
-CXX := clang++
+CXX := g++
 
 # Main
 CXX_FLAGS += -g -O2 -Wall -Wextra -pedantic -std=c++20
@@ -9,9 +9,10 @@ ALL_INCLUDES += -I dependencies
 ALL_INCLUDES += -I dependencies/glad
 ALL_INCLUDES += -I dependencies/glm
 ALL_INCLUDES += -I dependencies/imgui
-#ALL_INCLUDES += -L src/cosmic/lib
+ALL_INCLUDES += -I dependencies/stb
+# ALL_INCLUDES += -L src/cosmic/lib
 
-CXX_LIBS += -lGL -lglfw -lX11 -lpthread -lXrandr -lXi -ldl -lXxf86vm -lXinerama -lXcursor #-lcosmic
+CXX_LIBS += -lGL -lglfw3 -lX11 -lpthread -lXrandr -lXi -ldl -lXxf86vm -lXinerama -lXcursor #-lcosmic
 
 SRC := src
 BIN := bin
@@ -22,7 +23,7 @@ CXX_OBJS := $(patsubst $(SRC)/%.cpp, $(OBJS_DIR)/%.o, $(CXX_FILES))
 
 #----------------------------------------------------------------------------------
 
-#Depencies
+#Dependencies
 
 DEPS_SRC := dependencies/
 DEPS_OBJS_DIR := $(OBJS_DIR)/dependencies
@@ -55,33 +56,47 @@ CXX_COSMIC_FLAGS := -g -c -O3 -Wall -Wextra -pedantic -std=c++20
 
 #----------------------------------------------------------------------------------
 
-all: clear all-deps $(OBJS_DIR)/main.o $(CXX_OBJS) link run
+.PHONY: all clear run
+
+all: clear \
+	dirs \
+	all-deps \
+	all-main \
+	link \
+	run 
+
+dirs:
+ifneq ($(wildcard objs/.*),)
+else
+	@mkdir bin/ objs/ objs/cosmic/ objs/dependencies/
+endif
+
+all-deps: deps cosmic
 
 clear:
 	@clear
 run: 
 	@$(BIN)/a.out
 clean:
-	-rm -f $(OBJS_DIR)/*.o
-	-rm -f $(BIN)/*
+	@-rm -f $(OBJS_DIR)/*.o $(BIN)/*
 clean-cosmic:
-	-rm -f $(COSMIC_OBJS_DIR)/*.o
-	-rm -f $(COSMIC_LIB)/*.a
+	@-rm -f $(COSMIC_OBJS_DIR)/*.o $(COSMIC_LIB)/*.a
 clean-deps:
-	-rm -f $(DEPS_OBJS_DIR)/*.o
-clean-all: clear clean clean-cosmic clean-deps
-
-all-deps: deps cosmic
+	@-rm -f $(DEPS_OBJS_DIR)/*.o
+clean-all:
+	@-rm -rf objs/ bin/
 
 #----------------------------------------------------------------------------------
 
 # Compile main files
 
-$(OBJS_DIR)/main.o: $(SRC)/main.cpp
-	@echo "\nCompiling main\n"
-	@$(CXX) -c $< -o $(OBJS_DIR)/main.o $(ALL_INCLUDES)
+all-main: $(OBJS_DIR) $(CXX_OBJS)
 
 $(OBJS_DIR)/%.o: $(SRC)/%.cpp $(SRC)/includes/%.hpp
+	@echo "\nCompiling $*\n"
+	@$(CXX) -c $< -o $(OBJS_DIR)/$*.o $(ALL_INCLUDES)
+
+$(OBJS_DIR)/%.o: $(SRC)/%.cpp
 	@echo "\nCompiling $*\n"
 	@$(CXX) -c $< -o $(OBJS_DIR)/$*.o $(ALL_INCLUDES)
 
@@ -92,13 +107,18 @@ link:
 
 # Compile Cosmic files
 
+$(COSMIC_OBJS_DIR)/%.o: $(COSMIC_SRC)/%.cpp
+	@echo "\nCompiling $*\n"
+	@$(CXX) $< $(ALL_INCLUDES) $(CXX_COSMIC_FLAGS) -o objs/cosmic/$*.o
+
+
 $(COSMIC_OBJS_DIR)/%.o: $(COSMIC_SRC)/%.cpp $(COSMIC_INCLUDES)/%.hpp
 	@echo "\nCompiling $*\n"
 	@$(CXX) $< $(ALL_INCLUDES) $(CXX_COSMIC_FLAGS) -o objs/cosmic/$*.o
 
 cosmic: $(COSMIC_OBJS)
 #@ar rvs $(COSMIC_LIB)/libcosmic.a $(COSMIC_OBJS_DIR)/*.o $(DEPS_OBJS_DIR)/*.o
-#
+
 #----------------------------------------------------------------------------------
 
 # Compile dependencies
