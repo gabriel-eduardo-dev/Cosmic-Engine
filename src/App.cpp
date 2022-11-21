@@ -4,6 +4,7 @@ namespace App {
 	void run() {
 		
 		Window window;
+		window.init();
 
 		F32 vertices[] =
 		{
@@ -39,9 +40,10 @@ namespace App {
 			3, 2, 6,
 		};
 
-		Shader shader_program("shaders/default.vert", "shaders/default.frag");
+		Shader shader_program("resources/shaders/default.vert", "resources/shaders/default.frag");
 
 		VAO vao;
+		vao.bind();
 
 		VBO vbo(vertices, sizeof(vertices), GL_STATIC_DRAW);
 		vao.link_vbo(vbo, 0);

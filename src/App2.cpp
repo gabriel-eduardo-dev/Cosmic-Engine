@@ -1,11 +1,11 @@
 #include "App2.hpp"
-#include "Input.hpp"
 
 namespace App2 {
 
 	void run() {
 
-	Window window;
+		Window window;
+		window.init();
 	
 		F32 vertices[] = {
 			-1.0, 1.0, 0.0, 
@@ -20,8 +20,9 @@ namespace App2 {
 		};
 
 		glm::vec2 resolution = glm::vec2(800, 600);
-		Shader shader_program("shaders/mandelbroat.vert", "shaders/mandelbroat.frag");
+		Shader shader_program("resources/shaders/mandelbroat.vert", "resources/shaders/mandelbroat.frag");
 		VAO vao;
+		vao.bind();
 		VBO vbo(vertices, sizeof(vertices), GL_STATIC_DRAW);
 		vao.link_vbo(vbo, 0);
 		EBO ebo(indices, sizeof(indices), GL_STATIC_DRAW);
