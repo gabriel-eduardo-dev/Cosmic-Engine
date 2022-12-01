@@ -1,0 +1,1822 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "CMakeCCompilerId.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/3.22.1/CompilerIdC",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-v",
+      "-c",
+      "-o",
+      "CMakeFiles/cmTC_c50fa.dir/CMakeCCompilerABI.c.o",
+      "/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp",
+    "file": "/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c50fa.dir/CMakeCCompilerABI.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCHECK_FUNCTION_EXISTS=XOpenDisplay",
+      "-c",
+      "-o",
+      "CMakeFiles/cmTC_7dcb9.dir/CheckFunctionExists.c.o",
+      "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp",
+    "file": "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_7dcb9.dir/CheckFunctionExists.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCHECK_FUNCTION_EXISTS=gethostbyname",
+      "-c",
+      "-o",
+      "CMakeFiles/cmTC_87d90.dir/CheckFunctionExists.c.o",
+      "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp",
+    "file": "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_87d90.dir/CheckFunctionExists.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCHECK_FUNCTION_EXISTS=connect",
+      "-c",
+      "-o",
+      "CMakeFiles/cmTC_fbb69.dir/CheckFunctionExists.c.o",
+      "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp",
+    "file": "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_fbb69.dir/CheckFunctionExists.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCHECK_FUNCTION_EXISTS=remove",
+      "-c",
+      "-o",
+      "CMakeFiles/cmTC_65d4b.dir/CheckFunctionExists.c.o",
+      "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp",
+    "file": "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_65d4b.dir/CheckFunctionExists.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCHECK_FUNCTION_EXISTS=shmat",
+      "-c",
+      "-o",
+      "CMakeFiles/cmTC_d98ba.dir/CheckFunctionExists.c.o",
+      "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp",
+    "file": "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d98ba.dir/CheckFunctionExists.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCHECK_FUNCTION_EXISTS=IceConnectionNumber",
+      "-c",
+      "-o",
+      "CMakeFiles/cmTC_ba668.dir/CheckFunctionExists.c.o",
+      "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp",
+    "file": "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_ba668.dir/CheckFunctionExists.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-Wdeclaration-after-statement",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/context.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/context.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/context.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/context.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-Wdeclaration-after-statement",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/init.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/init.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/init.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/init.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-Wdeclaration-after-statement",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/input.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/input.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/input.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/input.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-Wdeclaration-after-statement",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/monitor.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/monitor.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/monitor.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-Wdeclaration-after-statement",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/platform.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/platform.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/platform.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/platform.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-Wdeclaration-after-statement",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/vulkan.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/vulkan.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/vulkan.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-Wdeclaration-after-statement",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/window.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/window.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/window.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/window.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-Wdeclaration-after-statement",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/egl_context.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/egl_context.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/egl_context.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-Wdeclaration-after-statement",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/osmesa_context.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/osmesa_context.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/osmesa_context.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-Wdeclaration-after-statement",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/null_init.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/null_init.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/null_init.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/null_init.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-Wdeclaration-after-statement",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/null_monitor.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/null_monitor.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/null_monitor.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-Wdeclaration-after-statement",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/null_window.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/null_window.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/null_window.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/null_window.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-Wdeclaration-after-statement",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/null_joystick.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/null_joystick.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/null_joystick.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/posix_module.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/posix_module.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/posix_module.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/posix_time.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/posix_time.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/posix_time.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/posix_thread.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/posix_thread.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/posix_thread.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/x11_init.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/x11_init.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/x11_init.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/x11_monitor.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/x11_monitor.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/x11_monitor.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/x11_window.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/x11_window.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/x11_window.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/xkb_unicode.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/xkb_unicode.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/xkb_unicode.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/glx_context.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/glx_context.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/glx_context.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/linux_joystick.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/linux_joystick.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/linux_joystick.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_X11",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+      "-fPIC",
+      "-Wall",
+      "-std=c99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/posix_poll.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/posix_poll.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/src/posix_poll.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/boing.dir/boing.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/boing.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/boing.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/CMakeFiles/boing.dir/boing.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/gears.dir/gears.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/gears.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/gears.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/CMakeFiles/gears.dir/gears.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/heightmap.dir/heightmap.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/heightmap.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/heightmap.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/offscreen.dir/offscreen.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/offscreen.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/offscreen.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/CMakeFiles/offscreen.dir/offscreen.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/particles.dir/particles.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/particles.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/particles.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/CMakeFiles/particles.dir/particles.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/particles.dir/__/deps/tinycthread.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/tinycthread.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/tinycthread.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/particles.dir/__/deps/getopt.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/sharing.dir/sharing.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/sharing.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/sharing.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/CMakeFiles/sharing.dir/sharing.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/splitview.dir/splitview.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/splitview.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/splitview.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/CMakeFiles/splitview.dir/splitview.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/triangle-opengl.dir/triangle-opengl.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/triangle-opengl.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/triangle-opengl.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/CMakeFiles/triangle-opengl.dir/triangle-opengl.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/triangle-opengles.dir/triangle-opengles.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/triangle-opengles.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/triangle-opengles.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/CMakeFiles/triangle-opengles.dir/triangle-opengles.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/wave.dir/wave.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/wave.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/wave.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/CMakeFiles/wave.dir/wave.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/windows.dir/windows.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/windows.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/windows.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/examples/CMakeFiles/windows.dir/windows.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/allocator.dir/allocator.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/allocator.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/allocator.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/allocator.dir/allocator.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/clipboard.dir/clipboard.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/clipboard.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/clipboard.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/clipboard.dir/clipboard.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/clipboard.dir/__/deps/getopt.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/events.dir/events.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/events.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/events.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/events.dir/events.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/events.dir/__/deps/getopt.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/events.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/msaa.dir/msaa.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/msaa.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/msaa.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/msaa.dir/msaa.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/msaa.dir/__/deps/getopt.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/msaa.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfwinfo.dir/glfwinfo.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/glfwinfo.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/glfwinfo.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/iconify.dir/iconify.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/iconify.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/iconify.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/iconify.dir/iconify.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/iconify.dir/__/deps/getopt.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/monitors.dir/monitors.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/monitors.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/monitors.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/monitors.dir/monitors.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/monitors.dir/__/deps/getopt.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/monitors.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/reopen.dir/reopen.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/reopen.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/reopen.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/reopen.dir/reopen.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/cursor.dir/cursor.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/cursor.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/cursor.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/cursor.dir/cursor.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/empty.dir/empty.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/empty.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/empty.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/empty.dir/empty.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/empty.dir/__/deps/tinycthread.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/tinycthread.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/tinycthread.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/gamma.dir/gamma.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/gamma.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/gamma.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/gamma.dir/gamma.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/icon.dir/icon.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/icon.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/icon.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/icon.dir/icon.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/inputlag.dir/inputlag.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/inputlag.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/inputlag.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/inputlag.dir/inputlag.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/inputlag.dir/__/deps/getopt.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/getopt.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/joysticks.dir/joysticks.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/joysticks.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/joysticks.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/joysticks.dir/joysticks.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/tearing.dir/tearing.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/tearing.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/tearing.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/tearing.dir/tearing.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/threads.dir/threads.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/threads.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/threads.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/threads.dir/threads.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/threads.dir/__/deps/tinycthread.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/tinycthread.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps/tinycthread.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/timeout.dir/timeout.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/timeout.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/timeout.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/timeout.dir/timeout.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/title.dir/title.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/title.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/title.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/title.dir/title.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/triangle-vulkan.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/triangle-vulkan.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/deps",
+      "-I/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/window.dir/window.c.o",
+      "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/window.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests",
+    "file": "/home/gab1604/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/window.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glfw/tests/CMakeFiles/window.dir/window.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-w",
+      "-std=c++20",
+      "-o",
+      "objs/dependencies/glad.o",
+      "dependencies//glad/glad.c"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/glad/glad.c",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/dependencies/glad.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-w",
+      "-std=c++20",
+      "-o",
+      "objs/dependencies/imgui.o",
+      "dependencies//imgui/cpp/imgui.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/imgui/cpp/imgui.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/dependencies/imgui.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-w",
+      "-std=c++20",
+      "-o",
+      "objs/dependencies/imgui_demo.o",
+      "dependencies//imgui/cpp/imgui_demo.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/imgui/cpp/imgui_demo.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/dependencies/imgui_demo.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-w",
+      "-std=c++20",
+      "-o",
+      "objs/dependencies/imgui_draw.o",
+      "dependencies//imgui/cpp/imgui_draw.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/imgui/cpp/imgui_draw.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/dependencies/imgui_draw.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-w",
+      "-std=c++20",
+      "-o",
+      "objs/dependencies/imgui_impl_glfw.o",
+      "dependencies//imgui/cpp/imgui_impl_glfw.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/imgui/cpp/imgui_impl_glfw.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/dependencies/imgui_impl_glfw.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-w",
+      "-std=c++20",
+      "-o",
+      "objs/dependencies/imgui_impl_opengl3.o",
+      "dependencies//imgui/cpp/imgui_impl_opengl3.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/imgui/cpp/imgui_impl_opengl3.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/dependencies/imgui_impl_opengl3.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-w",
+      "-std=c++20",
+      "-o",
+      "objs/dependencies/imgui_tables.o",
+      "dependencies//imgui/cpp/imgui_tables.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/imgui/cpp/imgui_tables.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/dependencies/imgui_tables.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-w",
+      "-std=c++20",
+      "-o",
+      "objs/dependencies/imgui_widgets.o",
+      "dependencies//imgui/cpp/imgui_widgets.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/dependencies/imgui/cpp/imgui_widgets.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/dependencies/imgui_widgets.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-std=c++20",
+      "-o",
+      "objs/cosmic/Camera.o",
+      "src/cosmic/Camera.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/src/cosmic/Camera.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/cosmic/Camera.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-std=c++20",
+      "-o",
+      "objs/cosmic/EBO.o",
+      "src/cosmic/EBO.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/src/cosmic/EBO.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/cosmic/EBO.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-std=c++20",
+      "-o",
+      "objs/cosmic/Input.o",
+      "src/cosmic/Input.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/src/cosmic/Input.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/cosmic/Input.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-std=c++20",
+      "-o",
+      "objs/cosmic/Shader.o",
+      "src/cosmic/Shader.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/src/cosmic/Shader.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/cosmic/Shader.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-std=c++20",
+      "-o",
+      "objs/cosmic/stb.o",
+      "src/cosmic/stb.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/src/cosmic/stb.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/cosmic/stb.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-std=c++20",
+      "-o",
+      "objs/cosmic/VAO.o",
+      "src/cosmic/VAO.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/src/cosmic/VAO.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/cosmic/VAO.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-std=c++20",
+      "-o",
+      "objs/cosmic/VBO.o",
+      "src/cosmic/VBO.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/src/cosmic/VBO.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/cosmic/VBO.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-g",
+      "-c",
+      "-O3",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-std=c++20",
+      "-o",
+      "objs/cosmic/Window.o",
+      "src/cosmic/Window.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/src/cosmic/Window.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/cosmic/Window.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-o",
+      "objs/App2.o",
+      "src/App2.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/src/App2.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/App2.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-o",
+      "objs/App3.o",
+      "src/App3.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/src/App3.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/App3.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-o",
+      "objs/App.o",
+      "src/App.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/src/App.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/App.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I",
+      "src/includes",
+      "-I",
+      "src/cosmic/includes",
+      "-I",
+      "dependencies",
+      "-I",
+      "dependencies/glfw/include",
+      "-I",
+      "dependencies/glad",
+      "-I",
+      "dependencies/glm",
+      "-I",
+      "dependencies/imgui",
+      "-I",
+      "dependencies/stb",
+      "-o",
+      "objs/main.o",
+      "src/main.cpp"
+    ],
+    "directory": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine",
+    "file": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/src/main.cpp",
+    "output": "/media/gab1604/Archives/dev/cpp/Cosmic-Engine/objs/main.o"
+  }
+]
