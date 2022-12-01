@@ -129,14 +129,14 @@ main: $(OBJS_DIR) $(CXX_OBJS)
 
 # Compile Cosmic files
 
+$(COSMIC_OBJS_DIR)/%.o: $(COSMIC_SRC)/%.cpp $(COSMIC_INCLUDES)/%.hpp
+	@echo "COMPILING COSMIC::$*"
+	@$(CXX) $< $(ALL_INCLUDES) $(CXX_COSMIC_FLAGS) -o $(COSMIC_OBJS_DIR)/$*.o
+
 $(COSMIC_OBJS_DIR)/%.o: $(COSMIC_SRC)/%.cpp
 	@echo "COMPILING COSMIC::$*"
 	@$(CXX) $< $(ALL_INCLUDES) $(CXX_COSMIC_FLAGS) -o $(COSMIC_OBJS_DIR)/$*.o
 
-
-$(COSMIC_OBJS_DIR)/%.o: $(COSMIC_SRC)/%.cpp $(COSMIC_INCLUDES)/%.hpp
-	@echo "COMPILING COSMIC::$*"
-	@$(CXX) $< $(ALL_INCLUDES) $(CXX_COSMIC_FLAGS) -o $(COSMIC_OBJS_DIR)/$*.o
 
 cosmic: $(COSMIC_OBJS)
 
