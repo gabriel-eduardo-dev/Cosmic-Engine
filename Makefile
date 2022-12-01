@@ -18,15 +18,14 @@ CXX_FLAGS := -g -O2 -Wall -Wextra -pedantic -std=c++20
 ALL_INCLUDES += -I src/includes
 ALL_INCLUDES += -I src/cosmic/includes
 ALL_INCLUDES += -I dependencies
-ALL_INCLUDES += -I dependencies/GLFW
+ALL_INCLUDES += -I dependencies/glfw/include
 ALL_INCLUDES += -I dependencies/glad
 ALL_INCLUDES += -I dependencies/glm
 ALL_INCLUDES += -I dependencies/imgui
 ALL_INCLUDES += -I dependencies/stb
 
-CXX_LINUX_LIBS := -lGL -lglfw3 -lX11 -lpthread -lXrandr -lXi -ldl -lXxf86vm -lXinerama -lXcursor
-CXX_WINDOWS_LIBS := -lglfw3 -lopengl32 -lgdi32 -luser32 -lkernel32
-CXX_WINDOWS_LINCLUDES := -L dependencies/GLFW
+CXX_LINUX_LIBS := -lGL dependencies/glfw/src/libglfw3.a -lX11 -lpthread -lXrandr -lXi -ldl -lXxf86vm -lXinerama -lXcursor
+CXX_WINDOWS_LIBS := dependencies/glfw/src/libglfw3.a -lopengl32 -lgdi32 -luser32 -lkernel32
 
 SRC := src
 BIN := bin
@@ -79,13 +78,17 @@ all: clear \
 	run 
 
 dirs:
-ifneq ($(wildcard objs/.*),)
-else
-	@mkdir bin/ objs/ $(COSMIC_OBJS_DIR)/ objs/dependencies/
-endif
+	@mkdir -p bin/ objs/ $(COSMIC_OBJS_DIR)/ objs/dependencies/
 
-build: deps cosmic main
-change:
+build: glfw deps cosmic main
+
+glfw:
+ifeq ($(wildcard dependencies/glfw/.*),)
+	@mkdir -p dependencies/glfw/
+	git clone https://github.com/glfw/glfw.git dependencies/glfw
+	cmake -S dependencies/glfw/ -B dependencies/glfw/ -G"Unix Makefiles"
+	make -C dependencies/glfw
+endif
 
 clear:
 	@clear
@@ -97,6 +100,8 @@ clean-cosmic:
 	@-rm -f $(COSMIC_OBJS_DIR)/*.o
 clean-deps:
 	@-rm -f $(DEPS_OBJS_DIR)/*.o
+clean-glfw:
+	@-rm -rf $(DEPS_SRC)/glfw/
 clean-all:
 	@-rm -rf objs/ bin/
 
@@ -114,7 +119,7 @@ $(OBJS_DIR)/%.o: $(SRC)/%.cpp
 
 link:
 ifeq ($(DETECTED_OS),Windows)
-	@$(CXX) $(OBJS_DIR)/*.o $(COSMIC_OBJS_DIR)/*.o $(DEPS_OBJS_DIR)/*.o -o $(BIN)/a.out $(CXX_FLAGS) $(CXX_WINDOWS_LIBS) $(CXX_WINDOWS_LINCLUDES) $(ALL_INCLUDES)
+	@$(CXX) $(OBJS_DIR)/*.o $(COSMIC_OBJS_DIR)/*.o $(DEPS_OBJS_DIR)/*.o -o $(BIN)/a.out $(CXX_FLAGS) $(CXX_WINDOWS_LIBS) $(ALL_INCLUDES)
 else ifeq ($(DETECTED_OS),Linux)
 	@$(CXX) $(OBJS_DIR)/*.o $(COSMIC_OBJS_DIR)/*.o $(DEPS_OBJS_DIR)/*.o -o $(BIN)/a.out $(CXX_FLAGS) $(CXX_LINUX_LIBS) $(ALL_INCLUDES)
 endif
