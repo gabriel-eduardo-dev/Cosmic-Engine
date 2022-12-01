@@ -81,6 +81,8 @@ namespace App3
 		shader.set_int("texture1", 0);
 		shader.set_int("texture2", 1);
 
+		Renderer render;
+
 		while (window.is_open()) {
 			window.clear();
 
@@ -92,13 +94,8 @@ namespace App3
 			glActiveTexture(GL_TEXTURE1);
 			glBindTexture(GL_TEXTURE_2D, texture2);
 
-			shader.use();
-			vao.bind();
-			ebo.bind();
-			glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-			ebo.unbind();
-			vao.unbind();
-
+			render.Draw(vao, ebo, shader);
+			
 			window.update();
 		}
 	}
