@@ -13,7 +13,7 @@ namespace App3
 		i32 width, height, nrChannels;
 		uchar *data = stbi_load("resources/images/container.jpg", &width, &height, &nrChannels, 0); 
 
-		uint texture, texture2;
+		u32 texture, texture2;
 		glGenTextures(1, &texture);
 		glBindTexture(GL_TEXTURE_2D, texture);
 
@@ -50,7 +50,7 @@ namespace App3
 			-0.5f, -0.5f, 0.0f,
 			-0.5f,  0.5f, 0.0f,
 		};
-		uint indices[] = {
+		u32 indices[] = {
 			0, 1, 3, 
 		    1, 2, 3,
 		};
