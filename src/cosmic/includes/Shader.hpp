@@ -22,8 +22,8 @@ class Shader
 		Shader(const char* vert_file, const char* frag_file);
 		~Shader();
 		
-		void use();
-		void del();
+		void use() const;
+		void del() const;
 
 		void set_bool(const char* var_name, bool value) const;
 		void set_int(const char* var_name, i32 value) const;

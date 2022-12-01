@@ -84,7 +84,6 @@ build: glfw deps cosmic main
 
 glfw:
 ifeq ($(wildcard dependencies/glfw/.*),)
-	@mkdir -p dependencies/glfw/
 	git clone https://github.com/glfw/glfw.git dependencies/glfw
 	cmake -S dependencies/glfw/ -B dependencies/glfw/ -G"Unix Makefiles"
 	make -C dependencies/glfw

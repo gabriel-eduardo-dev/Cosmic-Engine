@@ -25,17 +25,17 @@ void VAO::link_vbo(VBO& vbo, UINT32 layout, i16 size, u16 stride, u16 pointer)
 	vbo.unbind();
 }
 
-void VAO::bind()
+void VAO::bind() const
 {
 	glBindVertexArray(ID);
 }
 
-void VAO::unbind()
+void VAO::unbind() const
 {
 	glBindVertexArray(0);
 }
 
-void VAO::destroy()
+void VAO::destroy() const
 {
 	glDeleteVertexArrays(1, &ID);
 }
