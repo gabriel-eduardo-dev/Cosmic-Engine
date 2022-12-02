@@ -6,49 +6,15 @@ namespace App {
 		Window window;
 		window.init();
 
-		F32 vertices[] =
-		{
-			-0.5,  0.5, 0.0, 
-			 0.5,  0.5, 0.0,
-			-0.5, -0.5, 0.0,
-			 0.5, -0.5, 0.0,
-
-			-0.5,  0.5, -1.0, 
-			 0.5,  0.5, -1.0,
-			-0.5, -0.5, -1.0,
-			 0.5, -0.5, -1.0,
-		};
-
-		UINT32 indices[] =
-		{
-			0, 1, 2,
-			2, 1, 3,
-
-			4, 5, 6,
-			6, 7, 5,
-
-			0, 2, 6,
-			0, 4, 6,
-
-			3, 7, 1,
-			1, 5, 7,
-
-			0, 1, 4,
-			1, 4, 5,
-
-			3, 6, 7,
-			3, 2, 6,
-		};
-
 		Shader shader_program("resources/shaders/default.vert", "resources/shaders/default.frag");
 
 		VAO vao;
 		vao.bind();
 
-		VBO vbo(vertices, sizeof(vertices), GL_STATIC_DRAW);
+		VBO vbo(Polygons::Cube::vertices, sizeof(Polygons::Cube::vertices), GL_STATIC_DRAW);
 		vao.link_vbo(vbo, 0);
 
-		EBO ebo(indices, sizeof(indices), GL_STATIC_DRAW);
+		EBO ebo(Polygons::Cube::indices, sizeof(Polygons::Cube::indices), GL_STATIC_DRAW);
 
 		vao.unbind();
 

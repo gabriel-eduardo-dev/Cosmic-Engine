@@ -13,6 +13,7 @@
 #include "Camera.hpp"
 #include "Renderer.hpp"
 #include "Texture.hpp"
+#include "Polygons.hpp"
 #include <stb_image.h>
 
 #endif

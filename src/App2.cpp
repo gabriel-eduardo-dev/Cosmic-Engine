@@ -28,22 +28,27 @@ namespace App2 {
 		EBO ebo(indices, sizeof(indices), GL_STATIC_DRAW);
 		vao.unbind();
 
+		Renderer render;
+
 		window.set_vsync(false);
 
 			while (window.is_open()) {
-			window.clear();
-			if (Keyboard::is_key_release(GLFW_KEY_ESCAPE)) {
-				window.close();
-			} vao.bind();
-			ebo.bind();
-			shader_program.use();
-			shader_program.set_vec2("resolution", resolution); 
-			shader_program.set_float("time", glfwGetTime());
-			glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, (void*)0);
-			ebo.unbind();
-			vao.unbind();
+				window.clear();
+				if (Keyboard::is_key_release(GLFW_KEY_ESCAPE))
+				{
+					window.close();
+				}
+				vao.bind();
+				ebo.bind();
+				shader_program.use();
+				shader_program.set_vec2("resolution", resolution); 
+				shader_program.set_float("time", glfwGetTime());
+				glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, (void*)0);
+				ebo.unbind();
+				vao.unbind();
 
-			window.update();
+
+				window.update();
 		}
 	}
 }

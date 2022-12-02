@@ -9,24 +9,6 @@ namespace App3
 		window.init();
 		window.set_clear_color(Color{32,32,32});
 		
-		f32 vertices[] = {
-			0.5f,  0.5f, 0.0f,
-			0.5f, -0.5f, 0.0f,
-			-0.5f, -0.5f, 0.0f,
-			-0.5f,  0.5f, 0.0f,
-		};
-		u32 indices[] = {
-			0, 1, 3, 
-		    1, 2, 3,
-		};
-		f32 texture_cords[] = {
-			1.0f, 1.0f, 0.0,
-			1.0f, 0.0f, 0.0,
-			0.0f, 0.0f, 0.0,
-			0.0f, 1.0f, 0.0,
-		};
-
-		
 		Shader shader("resources/shaders/texture.vert", "resources/shaders/texture.frag");
 		Texture texture("resources/images/container.jpg", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGB, GL_UNSIGNED_BYTE);
 		
@@ -35,13 +17,13 @@ namespace App3
 		EBO ebo;
 
 		vao.bind();
-		vbo1.buffer_data(vertices, sizeof(vertices), GL_STATIC_DRAW);
+		vbo1.buffer_data(Polygons::Square::vertices, sizeof(Polygons::Square::vertices), GL_STATIC_DRAW);
 		vao.link_vbo(vbo1, 0);
 
-		vbo2.buffer_data(texture_cords, sizeof(texture_cords), GL_STATIC_DRAW);
+		vbo2.buffer_data(Polygons::Square::text_cords, sizeof(Polygons::Square::text_cords), GL_STATIC_DRAW);
 		vao.link_vbo(vbo2, 2);
 
-		ebo.buffer_data(indices, sizeof(indices), GL_STATIC_DRAW);
+		ebo.buffer_data(Polygons::Square::indices, sizeof(Polygons::Square::indices), GL_STATIC_DRAW);
 		ebo.unbind();
 		vao.unbind();
 
