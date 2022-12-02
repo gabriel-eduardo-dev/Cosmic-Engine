@@ -16,6 +16,7 @@ void Renderer::Draw(const VAO &vao, const EBO& ebo, const Shader& shader) const
 	ebo.bind();
 	shader.use();
 	glDrawElements(GL_TRIANGLES, ebo.total_elements, GL_UNSIGNED_INT, 0);
+	ebo.unbind();
 	vao.unbind();
 }
 
@@ -26,5 +27,6 @@ void Renderer::Draw(const VAO &vao, const EBO& ebo, const Texture &texture, cons
 	shader.use();
 	texture.bind();
 	glDrawElements(GL_TRIANGLES, ebo.total_elements, GL_UNSIGNED_INT, 0);
+	ebo.unbind();
 	vao.unbind();
 }

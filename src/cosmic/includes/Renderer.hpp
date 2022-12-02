@@ -2,6 +2,7 @@
 #define RENDERER_HPP
 
 #include <glad/glad.h>
+#include <GLFW/glfw3.h>
 #include "VAO.hpp"
 #include "VBO.hpp"
 #include "EBO.hpp"
