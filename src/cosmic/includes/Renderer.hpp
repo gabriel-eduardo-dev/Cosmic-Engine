@@ -6,6 +6,7 @@
 #include "VBO.hpp"
 #include "EBO.hpp"
 #include "Shader.hpp"
+#include "Texture.hpp"
 
 class Renderer 
 {
@@ -15,6 +16,7 @@ class Renderer
 		~Renderer();
 
 		void Draw(const VAO &vao, const EBO& ebo, const Shader& shader) const;
+		void Draw(const VAO &vao, const EBO& ebo, const Texture &texture, const Shader& shader) const;
 };
 
 #endif

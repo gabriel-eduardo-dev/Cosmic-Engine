@@ -10,7 +10,8 @@ class EBO
 	public:
 
 		GLuint ID;
-		u8 total_elements;
+		size_t total_elements;
+
 		EBO();
 		EBO(UINT32* data, GLsizeiptr size, GLenum mode);
 		~EBO();

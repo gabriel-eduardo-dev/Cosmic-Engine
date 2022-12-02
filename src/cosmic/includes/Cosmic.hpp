@@ -12,6 +12,7 @@
 #include "Shader.hpp"
 #include "Camera.hpp"
 #include "Renderer.hpp"
+#include "Texture.hpp"
 #include <stb_image.h>
 
 #endif
