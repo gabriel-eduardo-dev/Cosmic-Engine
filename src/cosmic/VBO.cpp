@@ -10,6 +10,7 @@ VBO::VBO(GLfloat* data, GLsizeiptr size, GLenum mode)
 	glGenBuffers(1, &ID);
 	bind();
 	glBufferData(GL_ARRAY_BUFFER, size, data, mode);
+	unbind();
 }
 
 void VBO::buffer_data(F32* data, GLsizeiptr size, GLenum mode)

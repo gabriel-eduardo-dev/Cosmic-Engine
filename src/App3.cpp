@@ -27,6 +27,8 @@ namespace App3
 		ebo.unbind();
 		vao.unbind();
 
+		window.set_vsync(true);
+		
 		Renderer render;
 
 		while (window.is_open()) {
