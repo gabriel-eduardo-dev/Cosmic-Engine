@@ -8,7 +8,7 @@ EBO::EBO()
 
 EBO::EBO(UINT32* data, GLsizeiptr size, GLenum mode)
 {
-	total_elements = size;
+	total_elements = size / sizeof(UINT32);
 	glGenBuffers(1, &ID);
 	bind();
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, size, data, mode);
@@ -17,7 +17,7 @@ EBO::EBO(UINT32* data, GLsizeiptr size, GLenum mode)
 
 void EBO::buffer_data(UINT32 *data, GLsizeiptr size, GLenum mode)
 {
-	total_elements = size;
+	total_elements = size / sizeof(UINT32);
 	bind();
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, size, data, mode);
 	unbind();
