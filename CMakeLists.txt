@@ -34,16 +34,28 @@ add_library(
 	${cosmic_src}
 )
 
-target_link_libraries(
-	${PROJECT_NAME}
-	PRIVATE	
-	glfw
-	GL
-	X11
-	pthread
-	Xi
-	dl
-)
+if (UNIX)
+	target_link_libraries(
+		${PROJECT_NAME}
+		PRIVATE	
+		glfw
+		GL
+		X11
+		pthread
+		Xi
+		dl
+	)
+else()
+	target_link_libraries(
+		${PROJECT_NAME}
+		PRIVATE	
+		glfw
+		opengl32
+		kernel32
+		gdi32
+		user32
+	)
+endif()
 
 include_directories(
 	src/include
