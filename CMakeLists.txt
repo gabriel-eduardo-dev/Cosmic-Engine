@@ -18,6 +18,9 @@ if(GIT_FOUND AND EXISTS "${PROJECT_SOURCE_DIR}/.git")
     endif()
 endif()
 
+option(COSMIC_BUILD_EXAMPLES "Compile examples" ON)
+set(GLFW_BUILD_DOCS OFF)
+
 project(cosmic VERSION 1.0)
 
 file(
@@ -75,5 +78,8 @@ target_link_directories(
 )
 
 add_subdirectory(deps/glfw)
-add_subdirectory(examples)
+
+if(COSMIC_BUILD_EXAMPLES)
+	add_subdirectory(examples)
+endif()
 
