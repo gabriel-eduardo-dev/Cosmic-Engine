@@ -10,6 +10,7 @@
 #include <glm/matrix.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
+#include "Defines.hpp"
 #include "Types.hpp"
 
 std::string get_file_contents(const char* filename);

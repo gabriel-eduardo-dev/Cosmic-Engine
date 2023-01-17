@@ -31,7 +31,7 @@ file(
 	deps/imgui/backends/imgui_impl_glfw.cpp
 	deps/imgui/backends/imgui_impl_opengl3.cpp
 )
-
+#add_compile_definitions("__COSMIC_DEBUG")
 add_library(
 	${PROJECT_NAME}
 	${cosmic_src}

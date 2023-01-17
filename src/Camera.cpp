@@ -15,7 +15,7 @@ void Camera::update(float fov_deg, float near_plane, float far_plane, Shader& sh
 	glm::mat4 projection = glm::mat4(1.0);
 	
 	view = glm::lookAt(position, position + orientation, up);
-	projection = glm::perspective(glm::radians(fov_deg), static_cast<float>(width / height), near_plane, far_plane);
+	projection = glm::perspective(glm::radians(fov_deg), static_cast<float>((float)width / height), near_plane, far_plane);
 
 	glUniformMatrix4fv(glGetUniformLocation(shader.ID, uniform), 1, GL_FALSE, glm::value_ptr(projection * view));
 }

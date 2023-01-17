@@ -15,7 +15,8 @@ std::string get_file_contents(const char* filename)
 		
 		return contents;
 	}
-	throw std::runtime_error("Failed to open shader...\n");
+	LOG("Failed to open shader...\n");
+	return "";
 }
 
 Shader::Shader(const char* vert_file, const char* frag_file)
@@ -139,7 +140,7 @@ void Shader::compile_errors(GLuint shader, GLenum type)
 		if (has_compiled == GL_FALSE)
 		{
 			glGetShaderInfoLog(shader, 1024, nullptr, info_log);
-			std::cout << "SHADER::COMPILATION_ERROR for: " << type << '\n' << info_log << '\n';
+			ERROR("SHADER::COMPILATION_ERROR for: " << type << '\n' << info_log << '\n');
 		}
 	}
 	else
@@ -148,7 +149,7 @@ void Shader::compile_errors(GLuint shader, GLenum type)
 		if (has_compiled == GL_FALSE)
 		{
 			glGetProgramInfoLog(shader, 1024, nullptr, info_log);
-			std::cout << "SHADER_LINKING_ERROR for: " << type << '\n' << info_log << '\n';
+			ERROR("SHADER_LINKING_ERROR for: " << type << '\n' << info_log << '\n');
 		}
 	}
 }

@@ -6,6 +6,7 @@
 #include <iostream>
 
 #include "Vectors.hpp"
+#include "Defines.hpp"
 
 #define 	KEY_UNKNOWN   -1
  

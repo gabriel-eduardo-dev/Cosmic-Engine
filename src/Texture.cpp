@@ -1,4 +1,5 @@
 #include "Texture.hpp"
+#include "include/Cosmic.hpp"
 
 Texture::Texture(const char* image, GLenum tex_type, GLenum slot, GLenum format, GLenum pixel_type)
 	:type (tex_type)
@@ -25,7 +26,7 @@ Texture::Texture(const char* image, GLenum tex_type, GLenum slot, GLenum format,
 	}
 	else
 	{
-		std::cout << "Failed to load texture" << std::endl;
+		ERROR("Failed to load texture");
 	}
 	stbi_image_free(data);
 

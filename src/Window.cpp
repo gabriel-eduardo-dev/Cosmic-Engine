@@ -18,14 +18,14 @@ Window::~Window()
 {
 	if (glfw_window != nullptr) {
 		glfwDestroyWindow(glfw_window);
-		glfwTerminate();
-		printf("Window closed...\n");
+		LOG("Window closed...\n");
 	}
+	glfwTerminate();
 }
 
 void Window::init()
 {
-	printf("Creating window...\n");
+	LOG("Creating window...\n");
 
 	if (!glfwInit())
 	{
@@ -77,7 +77,7 @@ void Window::init()
 
 	install_main_callbacks();
 
-	printf("Window created successfully...\n");
+	LOG("Window created successfully...\n");
 }
 
 void Window::install_main_callbacks()

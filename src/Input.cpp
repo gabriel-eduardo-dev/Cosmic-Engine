@@ -67,7 +67,7 @@ namespace Input
 		
 		void error_callback(int, const char* error)
 		{
-			throw std::runtime_error(error);
+			LOG(error);
 		}
 	}
 }
