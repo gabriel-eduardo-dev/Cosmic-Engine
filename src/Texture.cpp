@@ -19,16 +19,17 @@ Texture::Texture(const char* image, GLenum tex_type, GLenum slot, GLenum format,
 	stbi_set_flip_vertically_on_load(true);
 
 	uchar* data = stbi_load(image, &width, &height, &numColCh, 0);
-	if (data)
-	{
+	if (data) {
 		glTexImage2D(tex_type, 0, format, width, height, 0, format, pixel_type, data);
 		glGenerateMipmap(tex_type);
-	}
-	else
-	{
+	} else {
 		ERROR("Failed to load texture");
 	}
 	stbi_image_free(data);
+
+	this->width = width;
+	this->height = height;
+	this->numColCh = numColCh;
 
 	unbind();
 }

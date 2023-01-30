@@ -6,6 +6,7 @@
 #include "stb_image.h"
 #include "Types.hpp"
 #include "Shader.hpp"
+#include "Defines.hpp"
 
 class Texture 
 {
@@ -13,6 +14,7 @@ class Texture
 
 		UINT32 ID;
 		UINT32 type;
+		i32 width, height, numColCh;
 
 		Texture(const char* image, GLenum tex_type, GLenum slot, GLenum format, GLenum pixel_type);
 		~Texture();
